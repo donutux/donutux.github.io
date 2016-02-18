@@ -6,7 +6,8 @@ description: "Established in 2014, two girls from a rough town discover a shared
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#000000'
+  # primary-dark: '#F0F0F0'
+  primary-dark: '#FFF'
   links: '#219ab3'
 
 # Footer settings
