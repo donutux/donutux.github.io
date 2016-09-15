@@ -336,6 +336,9 @@ header {
 #contact {
   color: white;
   background-color: $alt-dark;
+  @include background-cover;
+  background-position: center;
+  background-image: url('../img/lets-discuss.png');
 }
 
 #contact .fa {
