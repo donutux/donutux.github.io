@@ -5,7 +5,8 @@ body {
 }
 
 body {
-    @include serif-font;
+    @include sans-serif-font;
+    font-weight: 300;
 }
 
 hr {
@@ -27,13 +28,17 @@ a {
     }
 }
 
-h1,
+h1 {
+  font-family: 'Fredoka One', cursive;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
     @include sans-serif-font;
+    font-weight: 300;
 }
 
 p {
@@ -43,7 +48,7 @@ p {
 }
 
 .bg-primary {
-    background-color: $theme-primary;
+    background-color: $alt-dark;
 }
 
 .bg-dark {
@@ -52,7 +57,8 @@ p {
 }
 
 .text-faded {
-    color: rgba(white, .7);
+    color: white;
+    // color: rgba(white, .7);
 }
 
 section {
@@ -316,8 +322,13 @@ header {
 }
 
 // Contact
+#contact {
+  color: white;
+  background-color: $alt-dark;
+}
+
 #contact .fa {
-    color: $theme-dark;
+    color: white;
     font-size: 4em;
 }
 
@@ -348,4 +359,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
